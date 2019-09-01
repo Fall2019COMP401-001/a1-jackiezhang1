@@ -10,5 +10,9 @@ public class A1Adept {
 
 		// Your code follows here.
 		
+		int totalItemCount = scan.nextInt();
+		
+		String[] itemNames = new String[totalItemCount];
+		double[]	
 	}
 }
