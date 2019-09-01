@@ -17,7 +17,17 @@ public class A1Novice {
 			
 			int items = scan.nextInt();
 			
+			double total = 0;
 			
+			for (int b = 0; b < items; b++) {
+				int quantity = scan.nextInt();
+				String itemName = scan.next();
+				double price = scan.nextDouble();
+				double cost = quantity * price;
+				total = total + cost;
+			}
+			String total_string = String.format("%.2f", total);
+			System.out.println(first.substring(0, 1) + ". " + last + ": " + total_string);
 		}
 			
 	}
