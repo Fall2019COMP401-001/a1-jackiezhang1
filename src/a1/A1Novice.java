@@ -9,6 +9,17 @@ public class A1Novice {
 		Scanner scan = new Scanner(System.in);
 
 		// Your code follows here.
+		int customers = scan.nextInt();
 		
+		for (int a = 0; a < customers; a++) {
+			String first = scan.next();
+			String last = scan.next();
+			
+			int items = scan.nextInt();
+			
+			
+		}
+			
 	}
 }
+
